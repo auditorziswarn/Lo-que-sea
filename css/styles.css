@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Loop:ital@0;1&display=swap');
+
+
+@font-face {
+    font-family: "bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+@font-face {
+    font-family: "Redes";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Inicio{
+    background-image: url('../IMG/1234.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    text-align: center;
+    padding: 25vh 100px;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Zen Loop', cursive;
+    color: #7dad93;
+    font-size: 6.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: Chilanka, cursive;
+    color: #7dad93;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+
+nav a {
+    flex: 1;
+    padding: 0;
+    background-color: #018790;
+    color: #bacca4;
+    text-decoration: none;
+    border: 2px solid rgb(77, 76, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'bubbler', sans-serif;
+}
+
+nav a:hover {
+    background-color: #0a516d;
+}
+
